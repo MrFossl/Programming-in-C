@@ -16,7 +16,7 @@ int main(void)
 	//get responses with ratings
 	for (i = 1; i <=20; ++i)
 	{
-		gatint("%i", &response);
+		GetInt("%i", &response);
 
 		if (response<1 || response>10)
 		{
